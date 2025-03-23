@@ -5,15 +5,14 @@ This repository contains implementations for auto-regressive text generation, in
 ---
 
 ## 📁 Repository Structure
+
+```text
 sampling/
-│
-├── base_decoding.py            # Naive auto-regressive generation (baseline)
-├── speculative_decoding.py     # Speculative decoding implementation
+├── base_decoding.py          # Naive auto-regressive generation (baseline)
+├── speculative_decoding.py   # Speculative decoding implementation
 
 utils/
-│
-├──      # Logits processing, formatted printing, etc.
-
+├── ...                       # Logits processing, formatted printing, etc.
 ## 📌 Highlights
 
 - **Base Decoding**: Implements the standard greedy auto-regressive text generation using a language model.
