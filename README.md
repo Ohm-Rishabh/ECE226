@@ -13,6 +13,8 @@ sampling/
 
 utils/
 ├── ...                       # Logits processing, formatted printing, etc.
+```
+
 ## 📌 Highlights
 
 - **Base Decoding**: Implements the standard greedy auto-regressive text generation using a language model.
